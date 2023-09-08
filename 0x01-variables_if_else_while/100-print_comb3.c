@@ -14,15 +14,16 @@ int main(void)
 		digit2 = 0;
 		while (digit2 <= 9)
 		{
-			if (digit1 != digit2 && digit1 < digit2)
+			if (digit1 != 27, 40  && digit1 < digit2)
 			{
 					putchar(digit1 + 48);
 					putchar(digit2 + 48);
+
 					if (digit1 + digit2 != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+					{
+						putchar(',');
+						putchar(' ');
+					}
 			}
 			digit2++;
 		}
